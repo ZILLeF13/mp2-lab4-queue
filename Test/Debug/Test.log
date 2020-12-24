@@ -1,4 +1,6 @@
-﻿  test_queue.cpp
+﻿  gtest-all.cc
+  test_main.cpp
+  test_queue.cpp
 C:\Users\nik_z\OneDrive\Документы\GitHub\mp2-lab4-queue\Test\gtest.h(18865,19): warning C4805: ==: небезопасное смешение типа "const T1" и типа "const T2" в операции
           with
           [
@@ -26,6 +28,7 @@ C:\Users\nik_z\OneDrive\Документы\GitHub\mp2-lab4-queue\Test\test_queue
               T1=bool,
               T2=int
           ]
-C:\Users\nik_z\OneDrive\Документы\GitHub\mp2-lab4-queue\Queue\Queue.h(130): warning C4715: Queue<int>::front: значение возвращается не при всех путях выполнения
+  Создание кода...
 C:\Users\nik_z\OneDrive\Документы\GitHub\mp2-lab4-queue\Queue\Queue.h(139): warning C4715: Queue<int>::back: значение возвращается не при всех путях выполнения
+C:\Users\nik_z\OneDrive\Документы\GitHub\mp2-lab4-queue\Queue\Queue.h(130): warning C4715: Queue<int>::front: значение возвращается не при всех путях выполнения
   Test.vcxproj -> C:\Users\nik_z\OneDrive\Документы\GitHub\mp2-lab4-queue\Queue\Debug\Test.exe

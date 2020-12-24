@@ -145,3 +145,9 @@ TEST(queue, ne_dobadlaet_elementov_bolshe_razmera)
 	q.push(3);
 	ASSERT_ANY_THROW(q.push(4));
 }
+
+TEST(queue, nelzia_vziat_iz_empty)
+{
+	Queue<int> q(3);
+	ASSERT_ANY_THROW(q.pop());
+}
