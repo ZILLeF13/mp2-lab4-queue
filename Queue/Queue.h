@@ -22,6 +22,8 @@ public:
 	bool full();
 	void push(T elem);
 	T pop();
+	T GetSize();
+	T GetMaxSize();
 };
  
 template<class T>
@@ -31,8 +33,8 @@ Queue<T>::Queue(int s)
 	{
 		throw"Queue";
 	}
-	head = 0;
-	tail = -1;
+	head = 1;    //0
+	tail = 0;    //-1
 	DataCount = 0;
 	MaxSize = s;
 	pMem = new T[MaxSize];
@@ -190,4 +192,16 @@ T Queue<T>::pop()
 		return pMem[MaxSize - 1];
 	}
 	return pMem[head - 1];
+}
+
+template<class T>
+T Queue<T>::GetSize()
+{
+	return DataCount;
+}
+
+template<class T>
+T Queue<T>::GetMaxSize()
+{
+	return MaxSize;
 }
